@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const { exec } = require('child_process');
 
 // Ganti dengan token bot Telegram Anda
-const token = '7516379395:AAHaikX0dk39T648_sjmYMohIRevEMlei84';
+const token = '6710723152:AAHJuo1gQc0pzLWDK3gCq9j6sTx3ATxIm_s';
 
 // Inisialisasi bot dengan token
 const bot = new TelegramBot(token, { polling: true });
@@ -29,7 +29,7 @@ bot.on('message', (msg) => {
   logActivity(msg);
 
 if (command.startsWith('/start')) {
-bot.sendMessage(chatId, `Hay Saya bot Ddos Yang di create oleh @DhannSU 
+bot.sendMessage(chatId, `Hay Saya KawaiNime DDOS Yang di ciptakan oleh @RootSecBizID
 
 /mix ddos dengan tools mix
 /http cek host
@@ -38,7 +38,7 @@ bot.sendMessage(chatId, `Hay Saya bot Ddos Yang di create oleh @DhannSU
 }
    
     if (command.startsWith('/bugcrash')) {
-        bot.sendMessage(chatId, `@DhannSU`)
+        bot.sendMessage(chatId, `@RootSecBizID`)
     }
     
     if (command.startsWith('/sendcrash')) {
@@ -47,7 +47,7 @@ bot.sendMessage(chatId, `Hay Saya bot Ddos Yang di create oleh @DhannSU
        const id = args[1];
        const akunlo = settings.pp;
           bot.sendPhoto(id, akunlo, {
-        caption: `@DhannSU` 
+        caption: `@RootSecBizID` 
         });
 }
 
